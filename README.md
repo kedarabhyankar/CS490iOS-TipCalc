@@ -27,8 +27,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/sptulQP' title='Tip Calculator GIF' width='' alt='Tip Calculator GIF' />
+##<img src='https://imgur.com/sptulQP' title='Tip Calculator GIF' width='' alt='Tip Calculator GIF' />
 
+<blockquote class="imgur-embed-pub" lang="en" data-id="sptulQP"><a href="//imgur.com/sptulQP"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 GIF Created with **QuickTime Player, ezgif.com, and my personal iPhone 11 Pro**
 
 ## Notes
@@ -39,7 +40,7 @@ I tried using a slider, and decided to experiment with that at a different time.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2020] [Kedar R. Abhyankar]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
