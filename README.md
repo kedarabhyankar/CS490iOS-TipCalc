@@ -27,9 +27,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-##<img src='https://imgur.com/sptulQP' title='Tip Calculator GIF' width='' alt='Tip Calculator GIF' />
+##<img src='https://i.imgur.com/sptulQP.gif' title='Tip Calculator GIF' width='' alt='Tip Calculator GIF' />
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="sptulQP"><a href="//imgur.com/sptulQP"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 GIF Created with **QuickTime Player, ezgif.com, and my personal iPhone 11 Pro**
 
 ## Notes
