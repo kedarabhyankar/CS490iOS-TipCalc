@@ -49,6 +49,7 @@
 		E41F3A4123CFD7D300A73A5D /* TipCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41F3A4523CFD7D300A73A5D /* TipCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalcUITests.swift; sourceTree = "<group>"; };
 		E41F3A4723CFD7D300A73A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E41F3A5323CFD7E300A73A5D /* TipCalc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TipCalc.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		E41F3A2223CFD7D000A73A5D /* TipCalc */ = {
 			isa = PBXGroup;
 			children = (
+				E41F3A5323CFD7E300A73A5D /* TipCalc.entitlements */,
 				E41F3A2323CFD7D000A73A5D /* AppDelegate.swift */,
 				E41F3A2523CFD7D000A73A5D /* SceneDelegate.swift */,
 				E41F3A2723CFD7D000A73A5D /* ViewController.swift */,
@@ -434,7 +436,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TipCalc/TipCalc.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = Y6VJVA9LC5;
 				INFOPLIST_FILE = TipCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -443,6 +447,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kedarabhyankar.TipCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,7 +457,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TipCalc/TipCalc.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = Y6VJVA9LC5;
 				INFOPLIST_FILE = TipCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -461,6 +468,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kedarabhyankar.TipCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
