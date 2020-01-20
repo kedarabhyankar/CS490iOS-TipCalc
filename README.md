@@ -37,6 +37,8 @@ Describe any challenges encountered while building the app.
 
 I tried using a slider, and decided to experiment with that at a different time. I decided to stick with the original video, and decided to stick with the segmented view controller.
 
+I also tried implementing userDefaults with a setting screen, but was unable to due to other errors. Will fix for future release!
+
 ## License
 
     Copyright [2020] [Kedar R. Abhyankar]
